@@ -11,6 +11,7 @@
   margin-top: 24px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 80px;
 }
 
 .header-content img {
@@ -28,23 +29,22 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  gap: 100;
   line-height: 28px;
   font-weight: 700;
 }
 
 .head {
   background-color: rgb(253, 253, 253);
-  height: 560px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .head-content {
-    margin-top: 84px;
-    width: 40%;
+  width: 40%;
 }
 
 h1 {
@@ -58,7 +58,7 @@ p {
 }
 
 .head a {
-  background-color: rgba(255, 111, 72, 1);
+  background: linear-gradient(rgba(255, 111, 72, 1),rgba(240, 42, 166, 1));
   color: white;
   width: 168px;
   height: 59px;
@@ -76,7 +76,26 @@ p {
 }
 
 .right {
-    background-color: white;
-    margin-left: 80%;   
-   
+  background-color: white;
+  /* margin-left: 80%; */
+}
+
+.card {
+  display: flex;
+}
+
+.first-card {
+  text-align: center;
+  padding-top: 64px;
+  background: linear-gradient(rgba(255, 111, 72, 1),rgba(240, 42, 166, 1));
+  width: 352px;
+  height: 322px;
+}
+
+.first-card p {
+  color: rgba(255, 255, 255, 1);
+  line-height: 38px;
+  font-size: large;
+  font-family: sans-serif;
+  font-weight: 800;
 }
