@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgba(255, 255, 255, 1);
+}
+
 .header {
   background-color: rgba(255, 255, 255, 1);
   display: flex;
@@ -58,7 +62,7 @@ p {
 }
 
 .head a {
-  background: linear-gradient(rgba(255, 111, 72, 1),rgba(240, 42, 166, 1));
+  background: linear-gradient(rgba(255, 111, 72, 1), rgba(240, 42, 166, 1));
   color: white;
   width: 168px;
   height: 59px;
@@ -69,6 +73,7 @@ p {
   text-decoration: none;
   line-height: 28px;
   font-weight: 700;
+  font-family: sans-serif;
 }
 
 .head img {
@@ -77,25 +82,92 @@ p {
 
 .right {
   background-color: white;
-  /* margin-left: 80%; */
 }
 
 .card {
   display: flex;
+  margin-top: 64px;
+  background: linear-gradient rgba(255, 255, 255, 1),rgba(240, 241, 255, 1);
 }
 
 .first-card {
   text-align: center;
   padding-top: 64px;
-  background: linear-gradient(rgba(255, 111, 72, 1),rgba(240, 42, 166, 1));
+  background: linear-gradient(rgba(255, 111, 72, 1), rgba(240, 42, 166, 1));
   width: 352px;
   height: 322px;
+  border-radius: 15px;
 }
 
 .first-card p {
   color: rgba(255, 255, 255, 1);
   line-height: 38px;
-  font-size: large;
+  font-size: 28px;
   font-family: sans-serif;
   font-weight: 800;
+}
+
+.second-card {
+  text-align: center;
+  padding-top: 64px;
+  background: linear-gradient(rgba(255, 111, 72, 1), rgba(240, 42, 166, 1));
+  width: 352px; 
+  height: 322px;
+  border-radius: 15px;
+}
+
+.second-card p {
+  color: black;
+}
+
+.third-card {
+  text-align: center;
+  padding-top: 64px;
+  background: linear-gradient(rgba(255, 111, 72, 1), rgba(240, 42, 166, 1));
+  width: 352px; 
+  height: 322px;
+  border-radius: 15px;
+}
+
+.third-card p {
+  color: black;
+}
+
+.for-card {
+  text-align: center;
+  padding-top: 64px;
+  background: linear-gradient(rgba(255, 111, 72, 1), rgba(240, 42, 166, 1));
+  width: 352px; 
+  height: 322px;
+  border-radius: 15px;
+}
+
+.for-card p {
+  color: black;
+}
+
+.five-card {
+  text-align: center;
+  padding-top: 64px;
+  background: linear-gradient(rgba(255, 111, 72, 1), rgba(240, 42, 166, 1));
+  width: 352px; 
+  height: 322px;
+  border-radius: 15px;
+}
+
+.five-card p {
+  color: black;
+}
+
+.six-card {
+  text-align: center;
+  padding-top: 64px;
+  background: linear-gradient(rgba(255, 111, 72, 1), rgba(240, 42, 166, 1));
+  width: 352px; 
+  height: 322px;
+  border-radius: 15px;
+}
+
+.six-card p {
+  color: black;
 }
